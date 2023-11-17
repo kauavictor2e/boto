@@ -1,0 +1,124 @@
+.logo{
+    width: 30%;
+    text-align: center;
+}
+body{
+    background-color: rgba(14, 187, 255, 0.315);
+    background-image: url("");
+}
+
+input[type=text], input[type=password] {
+    width: 20%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #0400fd;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+  }
+
+  .container{
+    text-align: center;
+  }
+
+  .divlogo{
+    text-align: center;
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #0704aa;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(0, 38, 255);}
+
+
+
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 11px;
+  font-size: 17px;
+  border: 1px solid rgb(0, 0, 0);
+  float: left;
+  width: 60%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 7%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ 
+.pesquisa{
+  align-items: center;
+  width: 900px;
+  margin: auto;
+  position: absolute;
+  top: 10px;
+  left: 700px;
+}
